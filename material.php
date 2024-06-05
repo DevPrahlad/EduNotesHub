@@ -1,14 +1,14 @@
 <?php
 session_start();
 error_reporting(0);
-if (empty($_SESSION['email'])) { 
-    header('location:userarea/userlogin.php');
-    exit();
+if(empty($_SESSION['email'])) { 
+    $redirect_url = urlencode($_SERVER['REQUEST_URI']);
+    header('Location: userarea/userlogin.php?redirect=' . $redirect_url);
+    exit;
 }
-if (!empty($_SESSION['email'])) {
+if(!empty($_SESSION['email'])) {
     $usernames = $_SESSION['email'];
 }
-
 include('config.php');
 
     $sql = "SELECT images FROM materials";
