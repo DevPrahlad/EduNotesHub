@@ -431,7 +431,7 @@ Login
 </div>
 </section>
 
-<script type="text/javascript" src="js/bundle.min.171d6ecbf56d2c736a3606581c28b1ad67061d4dcf14cb3f1ab0c631e03db1ae.js"></script>
+<script type="text/javascript" src="faq.js"></script>
 
 
 </body>
