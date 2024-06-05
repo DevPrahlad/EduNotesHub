@@ -1,15 +1,16 @@
 <?php
 session_start();
 error_reporting(0);
-if(empty($_SESSION['email']))
-{ 
-    header('location:userarea/userlogin.php');
+if(empty($_SESSION['email'])) { 
+    $redirect_url = urlencode($_SERVER['REQUEST_URI']);
+    header('Location: userarea/userlogin.php?redirect=' . $redirect_url);
+    exit;
 }
-if(!empty($_SESSION['email']))
-{
-$usernames=$_SESSION['email'];
+if(!empty($_SESSION['email'])) {
+    $usernames = $_SESSION['email'];
 }
- ?>
+?>
+
 <?php
 include 'db.php';
 
@@ -22,7 +23,7 @@ $selected_semester_id = isset($_POST['semester_id']) ? $_POST['semester_id'] : '
 $selected_subject_id = isset($_POST['subject_id']) ? $_POST['subject_id'] : '';
 
 // Pagination variables
-$limit = 5; // Number of notes per page
+$limit = 4; // Number of notes per page
 $page = isset($_POST['page']) ? (int)$_POST['page'] : 1;
 $offset = ($page - 1) * $limit;
 
@@ -146,7 +147,7 @@ $result = $conn->query($sql);
         <div class="row">
             <?php if ($result->num_rows > 0): ?>
                 <?php while($row = $result->fetch_assoc()): ?>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-3 mb-3">
                         <div class="card">
                             <img src="dlogo.jpg" class="card-img-top" alt="Note Image">
                             <div class="card-body">
