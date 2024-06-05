@@ -1,0 +1,46 @@
+[31-May-2024 07:14:44 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/add_semester.php on line 2
+[31-May-2024 07:14:44 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/add_semester.php on line 2
+[31-May-2024 07:14:44 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/ourwebpr/public_html/edunoteshub/add_semester.php on line 2
+[31-May-2024 07:14:44 UTC] PHP Notice:  Undefined variable: conn in /home3/ourwebpr/public_html/edunoteshub/add_semester.php on line 21
+[31-May-2024 07:14:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home3/ourwebpr/public_html/edunoteshub/add_semester.php:21
+Stack trace:
+#0 {main}
+  thrown in /home3/ourwebpr/public_html/edunoteshub/add_semester.php on line 21
+[31-May-2024 07:44:23 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:45:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:46:33 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:48:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:49:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:49:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:50:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 07:51:11 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/ourwebpr/public_html/edunoteshub/config.php on line 3
+[31-May-2024 15:03:37 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 15:03:37 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[31-May-2024 15:20:27 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_assignment.php on line 116
+[31-May-2024 15:20:27 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_assignment.php on line 117
+[31-May-2024 15:21:44 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_assignment.php on line 116
+[31-May-2024 15:21:44 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_assignment.php on line 117
+[31-May-2024 18:33:53 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_previous_year_paper.php on line 116
+[31-May-2024 18:33:53 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_previous_year_paper.php on line 117
+[31-May-2024 18:37:38 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_previous_year_paper.php on line 116
+[31-May-2024 18:37:38 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_previous_year_paper.php on line 117
+[31-May-2024 18:57:26 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 18:57:26 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[31-May-2024 18:58:43 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 18:58:43 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[31-May-2024 18:59:33 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 18:59:33 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[31-May-2024 19:00:15 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 19:00:15 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[31-May-2024 19:01:43 UTC] PHP Warning:  Illegal string offset 'status' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 116
+[31-May-2024 19:01:43 UTC] PHP Warning:  Illegal string offset 'message' in /home3/ourwebpr/public_html/edunoteshub/upload_note.php on line 117
+[01-Jun-2024 04:26:59 UTC] PHP Warning:  include(../blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:26:59 UTC] PHP Warning:  include(../blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:26:59 UTC] PHP Warning:  include(): Failed opening '../blog/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:34 UTC] PHP Warning:  include(/blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:34 UTC] PHP Warning:  include(/blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:34 UTC] PHP Warning:  include(): Failed opening '/blog/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:38 UTC] PHP Warning:  include(/blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:38 UTC] PHP Warning:  include(/blog/header.php): failed to open stream: No such file or directory in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 04:27:38 UTC] PHP Warning:  include(): Failed opening '/blog/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/ourwebpr/public_html/edunoteshub/circulars.php on line 36
+[01-Jun-2024 07:58:04 UTC] PHP Notice:  Undefined index: project_id in /home3/ourwebpr/public_html/edunoteshub/display_screenshot.php on line 8
