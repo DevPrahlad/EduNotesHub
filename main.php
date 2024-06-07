@@ -11,6 +11,10 @@ if(!empty($_SESSION['email']))
 $usernames=$_SESSION['email'];
 }
  ?>
+ <?php
+// Include your timetable HTML content in PHP
+echo file_get_contents('pop.php');
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" >
 <head>
@@ -70,7 +74,6 @@ body{ background:url(../images/bg-hero.png)no-repeat fixed 50%;
   color: #fff;
   transform: translateY(-7px);
 }
-
 
 /**.dropbtn1{
   background-color: #4CAF50;
@@ -238,14 +241,6 @@ li.menu-item a {
 
 </head>
 <body class="home blog font-sans bg-white dark:bg-night-300">
-    <?php include 'loader.php';?>
-<!-- PAGE LOADER : PLACE RIGHT AFTER BODY TAG -->
-
-<!--<div class="page-loader">
-	<div class="spinner"></div>
-</div>
-<div class="content1">
--->
 <header class="px-2 sm:px-4 py-3 inset-x-0 bg-white">
 <section class="container max-w-6xl mx-auto md:flex justify-between items-center">
 <div class="flex justify-start items-center sm:w-5/12 px-2">
@@ -255,26 +250,22 @@ li.menu-item a {
 <a href="auth2.php" class="block ml-2">
 <img src="Color logo - no background.svg" alt="Site Logo"  width="250" height="53" style="margin-left:6px;">
 </a>
-<!--
-<a href="/" class="uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
-PRAHLAD_MCA
-</a>
--->
+
 </div>
 <br>
 <div class="justify-center items-center w-full md:w-7/12 sm:flex my-2 md:my-0">
 <div class=" text-indigo-500 bg-gray-200 px-4 py-2 flex justify-center items-center w-full sm:w-5/12 shadow-inner mx-auto">
     <marquee behavior="scroll" direction="left" scrollamount="5">
-       <b>📚 Welcome to EduNotesHub! Find the best notes for your courses here. Stay ahead in your studies with our comprehensive resources. 🌟</b>
+       <b>ЁЯУЪ Welcome to EduNotesHub! Find the best notes for your courses here. Stay ahead in your studies with our comprehensive resources. ЁЯМЯ</b>
     </marquee>
 
 </div>
 <nav class="w-full hidden md:flex md:ml-8 md:w-7/12 justify-left items-center mb-3 md:mb-0">
-<a href="about_us" class="hidden lg:inline-block uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
-About Us
+<a href="userarea/userprofile.php" class="hidden lg:inline-block uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
+Profile
 </a>
-<a href="blog/blogs.php" class="uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
-Blogs
+<a href="logout.php" class="uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
+Logout
 </a>
 <a href="Reviews/review.php" class="uppercase mx-3 font-semibold tracking-wide hover:text-indigo-500 text-gray-500">
 Feedback
@@ -296,12 +287,12 @@ Feedback
 <li id="menu-item-24954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24964">
 <div class="dropdown">
  <button onclick="location.href='userarea/userprofile.php';"  class="dropbtn"><b style="font-size: 25px;">Profile</b></button>
- <!-- <div class="dropdown-content">
- <a href="/auth1.php">Login</a> 
-  <a href="/forgot-password.php">Forgot Password</a>
- <a href="/auth2.php">Add New Admin</a> 
- <a href="/auth3.php">Manage Admin</a> 
-</div>-->
+</div>
+  </li>
+  <br>
+  <li id="menu-item-24954" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24964">
+<div class="dropdown">
+ <button onclick="location.href='userarea/logout.php';"  class="dropbtn"><b style="font-size: 25px;">Logout</b></button>
 </div>
   </li>
   <br>
@@ -356,10 +347,10 @@ Feedback
 </h1>
 <p class="-mb-4 mt-2 text-gray-500">The edunoteshub is the ultimate educational resource for students with all resources in one space.</p>
 <div class="text-center text-indigo-400 border shadow-sm ring-1 border-indigo-200 py-3 px-4 mx-4 max-w-xl sm:mx-auto my-6 text-indigo-500 mt-10 bg-white">
-<b>विद्यां ददाति विनयं,
-विनयाद् याति पात्रताम्।
-पात्रत्वात् धनमाप्नोति,
-धनात् धर्मं ततः सुखम् ॥</b></div>
+<b>рд╡рд┐рджреНрдпрд╛рдВ рджрджрд╛рддрд┐ рд╡рд┐рдирдпрдВ,
+рд╡рд┐рдирдпрд╛рджреН рдпрд╛рддрд┐ рдкрд╛рддреНрд░рддрд╛рдореНред
+рдкрд╛рддреНрд░рддреНрд╡рд╛рддреН рдзрдирдорд╛рдкреНрдиреЛрддрд┐,
+рдзрдирд╛рддреН рдзрд░реНрдордВ рддрддрдГ рд╕реБрдЦрдореН рее</b></div>
 </div>
 <h3 class="text-gray-500 text-base sm:text-lg font-normal tracking-wide px-4 py-2 border-l-8 border-indigo-400 flex justify-between items-center container mx-2 sm:mx-auto mt-6">
 <span>
